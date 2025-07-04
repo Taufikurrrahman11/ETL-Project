@@ -1,0 +1,8 @@
+Sebelum menjalankan program, perlu menginstal dependensi yang dibutuhkan pada requirements.txt
+
+setelah itu aktifkan venv pada folder projek.
+
+Cara menjalankan program ETL, unit test, dan test coverage:
+python main.py
+
+untuk menyimpan data ke dalam postgre, buat terlebih dahulu table bernama etl_data pada postgre milik reviewer lalu sesuaikan isi dari POSTGRES_URI dengan postgre milik reviewer
